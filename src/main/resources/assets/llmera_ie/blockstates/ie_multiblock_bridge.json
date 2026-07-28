@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "llmera_ie:block/ie_multiblock_bridge" },
+    "facing=south": { "model": "llmera_ie:block/ie_multiblock_bridge" },
+    "facing=west": { "model": "llmera_ie:block/ie_multiblock_bridge" },
+    "facing=east": { "model": "llmera_ie:block/ie_multiblock_bridge" }
+  }
+}

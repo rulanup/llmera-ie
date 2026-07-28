@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="All Rights Reserved"
+
+[[mods]]
+modId="llmera_ie"
+version="${mod_version}"
+displayName="LLM Era Immersive Engineering Integration"
+description='''Immersive Engineering multiblock building tools for LLM Era.'''
+
+[[dependencies.llmera_ie]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.llmera_ie]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.llmera_ie]]
+modId="llmera"
+type="required"
+versionRange="[${mod_version},)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.llmera_ie]]
+modId="immersiveengineering"
+type="required"
+versionRange="[12.4,13)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.llmera_ie]]
+modId="jade"
+type="optional"
+versionRange="[15.10.5,16)"
+ordering="AFTER"
+side="BOTH"
